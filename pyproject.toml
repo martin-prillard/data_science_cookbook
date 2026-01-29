@@ -1,0 +1,9 @@
+[project]
+name = "data_science_cookbook"
+version = "0.1.0"
+description = "Notebooks on data science"
+requires-python = "==3.13.*"
+
+dependencies = [
+    "pandas",
+]
