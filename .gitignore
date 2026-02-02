@@ -14,3 +14,4 @@ logs.logs
 *.trashinfo
 *Zone.Identifier
 .virtual_documents/
+.Trash-1000/
