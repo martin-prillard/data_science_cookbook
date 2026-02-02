@@ -2,8 +2,20 @@
 name = "data_science_cookbook"
 version = "0.1.0"
 description = "Notebooks on data science"
-requires-python = "==3.13.*"
+requires-python = "==3.12.*"
 
 dependencies = [
+    "ipympl>=0.10.0",
+    "ipywidgets>=8.1.8",
+    "jupyterlab>=4.5.3",
+    "keplergl>=0.3.7",
+    "matplotlib>=3.10.8",
+    "networkx>=3.6.1",
     "pandas",
+    "plotly>=6.5.2",
+    "pyproj>=3.7.2",
+    "scikit-learn>=1.8.0",
+    "shapely>=2.1.2",
+    "statsmodels>=0.14.6",
+    "voila>=0.5.11",
 ]
