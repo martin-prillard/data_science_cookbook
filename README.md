@@ -44,7 +44,7 @@ docker build -t data_science_cookbook .
 
 2. **Start JupyterLab**
 ```bash
-docker run --rm -p 8888:8888 -v "$(pwd)":/workspace data_science_cookbook
+docker run --rm -p 8888:8888 -v .:/workspace data_science_cookbook
 ```
 
 ### Option C: installation using Python environment
