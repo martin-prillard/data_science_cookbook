@@ -70,6 +70,7 @@ RUN uv pip install --no-cache-dir ipykernel \
 # Runtime
 ############################
 EXPOSE 8888
+EXPOSE 8866
 
 CMD ["jupyter", "lab", \
      "--ip=0.0.0.0", \
